@@ -291,3 +291,17 @@ public class TilesConfig {
 public class TodoApplication {
 // ...
 ```
+
+### 정적 파일 추가
+
+[](https://stackoverflow.com/questions/42393211/how-can-i-serve-static-html-from-spring-boot)
+
+스프링 부트 프로젝트는 다음 경로 파일들을 정적으로 제공한다.
+실제 프로젝트에서는 CDN이나 apache2 웹 서버 등을 별도로 운용한다.
+
+```
+/META-INF/resources/  
+/resources/  
+/static/  
+/public/
+```
